@@ -235,9 +235,21 @@ h.	Concaténer 2 chaînes de caractères
     -la principale différence entre GET et POST est dans la manière dont les données sont envoyées au serveur : -GET les envoie via l'URL(donc elles sont visibles), tandis que POST les envoie dans le corps de la requête HTTP(donc ne sont pas visibles ). 
     -La méthode GET est utilisée pour récupérer des données tandis que POST est utilisée pour soumettre des données.
 
-2) "if(isset($variable))" : isset permet de déterminer si une variable est définie et si elle n'est pas nulle au moment de son appel. Elle est souvent utilisée pour éviter les erreurs liées à l'utilisation de variables non définies dans votre code.
-    - Si isset renvoie true, cela signifie que la variable est définie et qu'elle contient une valeur.
-    - Si isset renvoie false, cela signifie que la variable n'est pas définie ou qu'elle est nulle.
+2) "if(isset($variable))"/if(empty($variable)) :
+    isset() :
+
+        Vérifie si une variable est définie et n'est pas nulle.
+        Renvoie true si la variable existe et a une valeur autre que null.
+        Renvoie false si la variable n'est pas définie ou si elle est évaluée à null.
+    empty() :
+
+        Vérifie si une variable existe et si sa valeur est considérée comme vide.
+        Renvoie true si la variable n'existe pas ou si elle a une valeur vide (comme 0, '', null, false, array(), ou un objet vide).
+        Renvoie false si la variable existe et a une valeur non vide.
+
+3) $_SESSION En PHP est une superglobale.
+     une session est un moyen de stocker des informations temporaires pour un utilisateur pendant qu'il utilise un site. Ces informations, comme un panier d'achats ou des préférences, sont conservées sur le serveur pendant que l'utilisateur navigue sur le site. En PHP, les sessions sont gérées à l'aide de la superglobale $_SESSION.
+
 
 
 
