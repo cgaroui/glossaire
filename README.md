@@ -232,8 +232,12 @@ h.	Concaténer 2 chaînes de caractères
 //------------------------------------mes questions perso---------------------------------------------------
 
 1) quelle difference entre un formulaire envoyée avec la methode GET ou avec la methode POST:
--la principale différence entre GET et POST est dans la manière dont les données sont envoyées au serveur : -GET les envoie via l'URL(donc elles sont visibles), tandis que POST les envoie dans le corps de la requête HTTP(donc ne sont pas visibles ). 
--La méthode GET est utilisée pour récupérer des données tandis que POST est utilisée pour soumettre des données.
+    -la principale différence entre GET et POST est dans la manière dont les données sont envoyées au serveur : -GET les envoie via l'URL(donc elles sont visibles), tandis que POST les envoie dans le corps de la requête HTTP(donc ne sont pas visibles ). 
+    -La méthode GET est utilisée pour récupérer des données tandis que POST est utilisée pour soumettre des données.
+
+2) "if(isset($variable))" : isset permet de déterminer si une variable est définie et si elle n'est pas nulle au moment de son appel. Elle est souvent utilisée pour éviter les erreurs liées à l'utilisation de variables non définies dans votre code.
+    - Si isset renvoie true, cela signifie que la variable est définie et qu'elle contient une valeur.
+    - Si isset renvoie false, cela signifie que la variable n'est pas définie ou qu'elle est nulle.
 
 
 
