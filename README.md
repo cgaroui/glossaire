@@ -14,9 +14,16 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+
 2.	Qu’est-ce qu’un algorithme ?  
+## 2. Un algorithme est une serie d'instructions définies permettant de résoudre un problème ou d'accomplir une tâche.Ils sont utilisés pour créer des programmes qui exécutent des opérations précises de manière efficace et reproductible.
+
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 4.	Qu’est-ce que la portée d’une variable ?
+
+## 4. Une variable est un nom associé à une valeur qui peut changer. Elle sert à stocker des données dans un programme.
+
+
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
