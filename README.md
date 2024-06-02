@@ -14,20 +14,32 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+    ## 1. Pour exécuter un script PHP, il est nécessaire d'installer un environnement de serveur web et un interpréteur PHP. 
+    ## Serveur Web : Un serveur web pour traiter les requêtes HTTP
+    ## Interpréteur PHP : Pour interpréter et exécuter le code PHP.
+    ## Base de données (optionnelle) : Si le script PHP interagit avec une base de données.
+    ## Pour exécuter un script PHP, on peux utiliser des logiciels comme XAMPP ou WAMP, qui fournissent un environnement complet avec Apache, MySQL et PHP.
+
+
 
 2.	Qu’est-ce qu’un algorithme ?  
-## 2. Un algorithme est une serie d'instructions définies permettant de résoudre un problème ou d'accomplir une tâche.Ils sont utilisés pour créer des programmes qui exécutent des opérations précises de manière efficace et reproductible.
+    ## 2. Un algorithme est une serie d'instructions définies permettant de résoudre un problème ou d'accomplir une tâche.Ils sont utilisés pour créer des programmes qui exécutent des opérations précises de manière efficace et reproductible.
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
-4.	Qu’est-ce que la portée d’une variable ?
+    ## Une variable est un espace de stockage temporaire pour stocker des données comme des nombres, des chaînes de caractères ou des objets. En PHP, une variable est préfixée par le symbole du dollar "$".
 
-## 4. Une variable est un nom associé à une valeur qui peut changer. Elle sert à stocker des données dans un programme.
+
+4.	Qu’est-ce que la portée d’une variable ?
+    ## 4. Une variable est un nom associé à une valeur qui peut changer. Elle sert à stocker des données dans un programme.
 
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
     ## une constante est un element qui ne change pas de valeur ex les entier sont des constantes , tandis que variable est une lettre ou expression litterale qui peut prendre des valeurs different de types differents sa valeur varie en fonction de ce qu'on lui affecte : ex : x=2; x="prenom" .
     
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+    ## Une superglobale en PHP est une variable prédéfinie accessible partout dans le script, et il y en a neuf au total. Un exemple est $_GET qui récupère des données d'un formulaire envoyé via l'URL. 
+    ## liste : ($GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST, et $_ENV.)
+
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
@@ -42,8 +54,16 @@
 
 ## Front-end
 18.	Définir HTML
+    ## HTML (HyperText Markup Language)  est le langage utilisé pour structurer le contenu des pages web en utilisant des balises tels que des titres, des paragraphes, des liens ou des images.
+
 19.	Définir CSS
+    ## CSS (Cascading Style Sheets) est un langage de feuilles de style utilisé pour styliser et mettre en forme les éléments HTML d'une page web.
+
+
 20.	Définir Javascript
+    ## JavaScript est un langage de programmation côté client utilisé pour rendre les pages web interactives et dynamiques. 
+    ## Il est intégré dans le code HTML des pages web et permet d'ajouter des fonctionnalités telles que des animations, des validations de formulaire, des effets visuels, des mises à jour de contenu en temps réel et des interactions avec l'utilisateur.
+
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ?
