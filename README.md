@@ -41,7 +41,30 @@
     ## liste : ($GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST, et $_ENV.)
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+    ## les types primitifs en php : les entiers, flottants, chaînes de caractères, booléens, tableaux, objets, ressources, et le type NULL pour une variable sans valeur.
+    ## Ces types permettent de manipuler différentes formes de données dans les programmes PHP.
+
+    ## exemple1 un objet : class Personne {
+    ## public $nom;
+    ## public function __construct($nom) {
+    ##    $this->nom = $nom;}
+    ## }
+    ## $personne = new Personne("Alice");
+
+
+    ## exemple2 type ressources $fichier = fopen("example.txt", "r");
+
+    
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+    ## En PHP, les types de tableaux peuvent être énumérés comme suit :
+
+    ## Tableaux indexés numériquement : Les éléments du tableau sont accessibles par des indices numériques entiers.
+
+     ## Tableaux associatifs : Les éléments du tableau sont accessibles par des clés de type chaîne de caractères.
+
+     ## Ces deux types de tableaux constituent les bases principales pour organiser et stocker des données dans PHP.
+
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
