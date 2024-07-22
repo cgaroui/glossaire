@@ -180,8 +180,11 @@ h.	Concaténer 2 chaînes de caractères
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
+    ## Symfony est un framework PHP libre basé sur le design pattern MVC12. Il a été créé par une agence web française appelée SensioLabs1. Symfony fournit un ensemble de fonctionnalités et de modules déjà codés et testés qui permettent d’accélérer le développement
 85.	Sur quel langage de programmation et design pattern repose Symfony ? 
+    ## Symfony repose sur le langage de programmation PHP et utilise le design pattern MVC (Modèle-Vue-Contrôleur).
 86.	Quelle est la dernière version en date de Symfony ?
+    ## La dernière version de Symfony est la 7.1, publiée en mai 2024
 87.	Qu’est-ce qu’un bundle ? 
 88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
 89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
