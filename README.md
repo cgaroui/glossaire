@@ -66,12 +66,50 @@
      ## Ces deux types de tableaux constituent les bases principales pour organiser et stocker des données dans PHP.
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+    ## Séquentielle : Exécution linéaire des instructions une par une.
+
+<!-- Si (if) : Exécute un bloc de code seulement si une condition est vraie.
+
+Si...sinon (if...else) : Exécute un bloc de code si une condition est vraie, sinon un autre bloc.
+
+Sinon si (else if / else if) : Teste plusieurs conditions successives.
+
+Switch / Case : Choisit un bloc de code à exécuter en fonction de la valeur d'une expression.
+
+Pour (for) : Répète un bloc de code un nombre spécifique de fois.
+
+Tant que (while) : Répète un bloc de code tant qu'une condition est vraie.
+
+Faire...tant que (do...while) : Répète un bloc de code au moins une fois puis tant qu'une condition est vraie. -->
+
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+## La fonction PHP permettant de demander la longueur d’une chaîne de caractères est strlen()
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+
+## Une session en PHP est un mécanisme permettant de stocker des informations utilisateur de manière persistante à travers plusieurs pages d'un site web, et la fonction pour démarrer une session est session_start()
+
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+## un cookie est un petit fichier stocké sur le navigateur de l'utilisateur par un site web pour mémoriser des informations, et en PHP, on peut définir un cookie avec setcookie().
+
+
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+## La différence entre require et include en PHP est que require génère une erreur fatale et arrête le script si le fichier spécifié est introuvable, tandis que include génère une simple alerte et continue l'exécution du script.
+
+
 14.	Comment effectuer une redirection en PHP ?
+## Pour effectuer une redirection en PHP, on utilise la fonction header() avec l'instruction Location.
+<!-- <?php
+header("Location: http://www.example.com");
+exit();
+?> -->
+
+
 15.	Définir la partie « front-end » et « back-end » d’une application
+## Front-end : La partie visible d'une application avec laquelle les utilisateurs interagissent directement.
+## Back-end : La partie d'une application qui gère la logique et les données côté serveur.
+
+
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
