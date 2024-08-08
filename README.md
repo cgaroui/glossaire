@@ -139,7 +139,13 @@ exit();
 ## La balise HTML <a> permet de créer un lien hypertexte.
 
 25.	Qu’est-ce qu’une requête AJAX ?
-26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+## Une requête AJAX, c'est quand une page web demande des données au serveur sans se recharger complètement, ce qui rend l'appli plus rapide et fluide. En gros, ça permet de mettre à jour juste une partie de la page sans tout rafraîchir.
+
+
+26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ? 
+<!-- - Pour sélectionner tous les éléments d'une classe spécifique, on utilise le sélecteur avec un point suivi du nom de la classe, comme `.maClasse`.
+  
+- Pour sélectionner un élément avec un identifiant spécifique, on utilise le sélecteur avec un dièse suivi du nom de l'identifiant, comme `#monId`. -->
 27.	Définir le responsive design
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
