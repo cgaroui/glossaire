@@ -129,8 +129,15 @@ exit();
 ## Le JSON(JavaScript Object Notation) est un format simple qui ressemble à des objets JavaScript, utilisé pour échanger des données entre un serveur et une appli web. On l'utilise souvent pour faire passer des infos entre le front-end (ce que tu vois) et le back-end (ce qui bosse derrière).
 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+## Oui, on peut interpréter du JavaScript côté serveur en utilisant "Node.js", une plateforme qui permet d'exécuter du JavaScript en dehors du navigateur, directement sur le serveur.
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
+## Un sélecteur CSS est un élément ou un groupe d'éléments qui définit sur quelles parties d'un document HTML les styles CSS doivent s'appliquer.
+
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+## La balise HTML <a> permet de créer un lien hypertexte.
+
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 27.	Définir le responsive design
