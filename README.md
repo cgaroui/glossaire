@@ -126,6 +126,8 @@ exit();
     ## Il est intégré dans le code HTML des pages web et permet d'ajouter des fonctionnalités telles que des animations, des validations de formulaire, des effets visuels, des mises à jour de contenu en temps réel et des interactions avec l'utilisateur.
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+## Le JSON(JavaScript Object Notation) est un format simple qui ressemble à des objets JavaScript, utilisé pour échanger des données entre un serveur et une appli web. On l'utilise souvent pour faire passer des infos entre le front-end (ce que tu vois) et le back-end (ce qui bosse derrière).
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ?
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
