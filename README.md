@@ -175,6 +175,10 @@ exit();
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
+
+## UX Design améliore l'expérience globale de l'utilisateur, tandis que UI Design s'occupe de l'apparence et de la mise en page de l'interface.
+
+
 36.	Qu’est-ce qu’un wireframe ? 
     ## c'est la maquette simplifé d'un projet. Il n'ya pas de couleurs ni detail mais l'emplacement de chaque element est present ( le zonage).
 
