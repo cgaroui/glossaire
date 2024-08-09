@@ -147,6 +147,8 @@ exit();
   
 - Pour sélectionner un élément avec un identifiant spécifique, on utilise le sélecteur avec un dièse suivi du nom de l'identifiant, comme `#monId`. -->
 27.	Définir le responsive design
+    ## Le responsive design permet à un site web de s'adapter automatiquement à la taille de l'écran utilisé pour le consulter.
+    
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
