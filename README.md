@@ -148,10 +148,15 @@ exit();
 - Pour sélectionner un élément avec un identifiant spécifique, on utilise le sélecteur avec un dièse suivi du nom de l'identifiant, comme `#monId`. -->
 27.	Définir le responsive design
     ## Le responsive design permet à un site web de s'adapter automatiquement à la taille de l'écran utilisé pour le consulter.
-    
+
 28.	Qu’est-ce que le templating ?
+## Le templating permet de créer des pages en remplissant des modèles préconçus avec du contenu variable.
+
+
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+## c'est la methode push , exemple : let fruits = ['pomme','orange']; => fruits.push('kiwi) => va ajouter le fruit kiwi à la fin
 31.	Qu’est-ce qu’un « media query » ?
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
