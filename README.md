@@ -167,7 +167,7 @@ exit();
     ## Un pseudo-élément en CSS permet de cibler et de styliser des parties spécifiques d'un élément HTML, comme le premier caractère ou la première ligne d'un texte. Par exemple, '::first-line' ou '::before'.
 
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-
+## Bootstrap est un framework CSS open-source qui fournit des outils et des composants préconçus pour créer des sites web réactifs et modernes facilement.d'autres framework css par exemple :Foundation ,Bulma
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
 
 ## UX UI
