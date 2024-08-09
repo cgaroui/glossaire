@@ -157,10 +157,17 @@ exit();
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
 ## c'est la methode push , exemple : let fruits = ['pomme','orange']; => fruits.push('kiwi) => va ajouter le fruit kiwi à la fin
+
+
 31.	Qu’est-ce qu’un « media query » ?
 ## Un media query permet d'appliquer des styles CSS différents selon la taille ou les caractéristiques de l'écran.
+
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
+
+    ## Un pseudo-élément en CSS permet de cibler et de styliser des parties spécifiques d'un élément HTML, comme le premier caractère ou la première ligne d'un texte. Par exemple, '::first-line' ou '::before'.
+
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
 
 ## UX UI
