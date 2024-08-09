@@ -168,7 +168,10 @@ exit();
 
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
 ## Bootstrap est un framework CSS open-source qui fournit des outils et des composants préconçus pour créer des sites web réactifs et modernes facilement.d'autres framework css par exemple :Foundation ,Bulma
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+## il ya 2 méthodes :'GET' envoie les données dans l'URL et est utilisé pour les requêtes simples, tandis que 'POST' envoie les données dans le corps de la requête et est utilisé pour envoyer des informations plus sécurisées ou volumineuses.
+
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
