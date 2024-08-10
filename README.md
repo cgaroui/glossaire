@@ -183,6 +183,8 @@ exit();
     ## c'est la maquette simplifé d'un projet. Il n'ya pas de couleurs ni detail mais l'emplacement de chaque element est present ( le zonage).
 
 37.	Qu’est-ce qu’un prototype ? 
+## Un 'prototype' est une version préliminaire d'un produit ou d'une fonctionnalité, utilisée pour tester et valider des idées avant la production finale.
+
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
