@@ -217,6 +217,8 @@ IV. Programmation orientée objet (POO)
 64.	Quels sont les avantages de l’architecture MVC ?
 65.	Existe-t-il des variantes à l’architecture MVC ?
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
+## une API (Application programming interface ) agit comme un intermédiaire ou un "transmetteur" entre la base de données  et le client (comme une application ou un site web). Le client demande des données ou des services via l'API, qui va ensuite récupérer ces informations dans la base de données et les renvoyer au client.
+## Une API REST (Representational State Transfer) est un type d'API qui utilise les protocoles HTTP pour permettre à des applications de communiquer en envoyant des requêtes (comme GET, POST) et en recevant des réponses, souvent au format JSON ou XML.
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
