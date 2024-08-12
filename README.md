@@ -216,12 +216,16 @@ IV. Programmation orientée objet (POO)
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
 64.	Quels sont les avantages de l’architecture MVC ?
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
-## une API (Application programming interface ) agit comme un intermédiaire ou un "transmetteur" entre la base de données  et le client (comme une application ou un site web). Le client demande des données ou des services via l'API, qui va ensuite récupérer ces informations dans la base de données et les renvoyer au client.
-## Une API REST (Representational State Transfer) est un type d'API qui utilise les protocoles HTTP pour permettre à des applications de communiquer en envoyant des requêtes (comme GET, POST) et en recevant des réponses, souvent au format JSON ou XML.
+## Une API (Application Programming Interface) agit comme un intermédiaire entre le client et la base de données, permettant au client de demander des informations qui sont ensuite récupérées et renvoyées. Une API REST (Representational State Transfer) est un type d'API qui utilise les protocoles HTTP pour faciliter cette communication en envoyant des requêtes et en recevant des réponses, souvent au format JSON ou XML.
 
 ## Modélisation - Base de données
+
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+
+## La modélisation de données consiste à créer une représentation visuelle des données d'un système, et la méthode Merise est une façon de concevoir des systèmes informatiques en décrivant les données et les processus à trois niveaux : conceptuel, logique, et physique.
+
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
 a.	Analyse, conception et réalisation
 b.	Planification, exécution et contrôle
