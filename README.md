@@ -235,6 +235,7 @@ c.	Création, modification et suppression
 ##  est une représentation graphique des données et de leurs relations dans un système d'information, utilisée pour concevoir et structurer la base de données de manière abstraite.
 
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+## est une représentation détaillée des données et de leurs relations, adaptée aux contraintes du système de gestion de base de données choisi, et servant de pont entre le modèle conceptuel et le modèle physique.
 71.	Donner la définition des mots suivants :
 a.	Entité
 b.	Relation
