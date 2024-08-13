@@ -227,10 +227,13 @@ IV. Programmation orientée objet (POO)
 ## La modélisation de données consiste à créer une représentation visuelle des données d'un système, et la méthode Merise est une façon de concevoir des systèmes informatiques en décrivant les données et les processus à trois niveaux : conceptuel, logique, et physique.
 
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
-a.	Analyse, conception et réalisation
+## a.	Analyse, conception et réalisation
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
+
 69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+##  est une représentation graphique des données et de leurs relations dans un système d'information, utilisée pour concevoir et structurer la base de données de manière abstraite.
+
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 71.	Donner la définition des mots suivants :
 a.	Entité
