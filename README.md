@@ -249,6 +249,8 @@ d.	Clé primaire / clé étrangère
 ## Une relation "Many-to-Many" devient une table intermédiaire avec deux clés étrangères dans le modèle logique de données, transformant la relation en deux relations "One-to-Many".
 
 73.	Qu’est-ce qu’une base de données ? 
+## Une base de données est un ensemble structuré de données stockées dans des tables, permettant un accès, une gestion et une manipulation efficaces via des requêtes SQL.
+
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
