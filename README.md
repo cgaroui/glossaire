@@ -244,8 +244,11 @@ c.	Création, modification et suppression
 d.	Clé primaire / clé étrangère
 ## Clé primaire : Un identifiant unique pour chaque enregistrement d'une table.
 ## Clé étrangère : Un lien entre deux tables, reliant la clé primaire d'une table à une autre.
+
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-73.	Qu’est-ce qu’une base de données ?
+## Une relation "Many-to-Many" devient une table intermédiaire avec deux clés étrangères dans le modèle logique de données, transformant la relation en deux relations "One-to-Many".
+
+73.	Qu’est-ce qu’une base de données ? 
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
