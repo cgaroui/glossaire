@@ -242,7 +242,8 @@ c.	Création, modification et suppression
 ## b.	Relation :Un lien entre deux ou plusieurs entités, souvent représenté par des tables connectées dans une base de données
 ## c.	Cardinalité : Le nombre d'associations possibles entre les entités, comme un-à-un ou un-à-plusieurs.
 d.	Clé primaire / clé étrangère
-
+## Clé primaire : Un identifiant unique pour chaque enregistrement d'une table.
+## Clé étrangère : Un lien entre deux tables, reliant la clé primaire d'une table à une autre.
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 73.	Qu’est-ce qu’une base de données ?
 74.	Définir les notions suivantes : 
