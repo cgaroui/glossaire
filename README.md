@@ -237,10 +237,12 @@ c.	Création, modification et suppression
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 ## est une représentation détaillée des données et de leurs relations, adaptée aux contraintes du système de gestion de base de données choisi, et servant de pont entre le modèle conceptuel et le modèle physique.
 71.	Donner la définition des mots suivants :
-a.	Entité
-b.	Relation
-c.	Cardinalité
+## a. une Entité:Un objet ou concept identifiable du monde réel, représenté par une table dans une base de données.
+
+## b.	Relation :Un lien entre deux ou plusieurs entités, souvent représenté par des tables connectées dans une base de données
+## c.	Cardinalité : Le nombre d'associations possibles entre les entités, comme un-à-un ou un-à-plusieurs.
 d.	Clé primaire / clé étrangère
+
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 73.	Qu’est-ce qu’une base de données ?
 74.	Définir les notions suivantes : 
