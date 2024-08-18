@@ -185,38 +185,100 @@ exit();
 37.	Qu’est-ce qu’un prototype ? 
 ## Un 'prototype' est une version préliminaire d'un produit ou d'une fonctionnalité, utilisée pour tester et valider des idées avant la production finale.
 
-38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
-39.	Qu’est-ce que l’accessibilité en UX Design ? 
-40.	Qu’est-ce qu’une grille de mise en page ?
-41.	Qu’est-ce que la notion d’affordance en UX Design ?
-42.	Qu’est-ce qu’un « mobile first design » ?
-IV. Programmation orientée objet (POO)
-43.	Donner une définition de la programmation orientée objet 
-44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
-45.	Qu’est-ce qu’un objet ?
-46.	Définir la notion de propriété / attribut / méthode
-47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
-48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
-49.	Qu’est-ce que l’encapsulation ?
-50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-51.	Définir l’opérateur de résolution de portée
-52.	Définir une méthode / propriété statique
-53.	Définir le polymorphisme en POO
-54.	Définir une méthode / classe abstraite ?
-55.	Définir le chaînage de méthodes
-56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-59.	Qu’est-ce que la sérialisation en PHP ? 
+Voici les réponses aux questions sur le design UI/UX et la programmation orientée objet (POO) :
+
+38. Qu’est-ce que la hiérarchie visuelle en UI Design ?  
+## La hiérarchie visuelle organise les éléments d'une interface pour guider l'œil de l'utilisateur et améliorer la lisibilité.
+
+39. Qu’est-ce que l’accessibilité en UX Design ?  
+## L'accessibilité vise à rendre les interfaces utilisables par toutes les personnes, y compris celles avec des handicaps.
+
+40. Qu’est-ce qu’une grille de mise en page ?  
+## Une grille de mise en page est un système de colonnes et de rangées qui aide à organiser le contenu de manière cohérente.
+
+41. Qu’est-ce que la notion d’affordance en UX Design ?  
+## L’affordance est la propriété d’un élément qui indique son utilisation, comme un bouton qui semble cliquable.
+
+42. Qu’est-ce qu’un « mobile first design » ?  
+## Un « mobile first design » est une approche de conception qui commence par les exigences des appareils mobiles avant de s'adapter aux écrans plus grands.
+
+43. Donner une définition de la programmation orientée objet  
+## La programmation orientée objet (POO) est un paradigme de programmation qui organise le code en objets, regroupant données et méthodes.
+
+44. Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
+## Une classe est un modèle pour créer des objets. On la déclare avec le mot-clé `class` en PHP, suivi du nom de la classe.
+
+45. Qu’est-ce qu’un objet ?  
+## Un objet est une instance d'une classe, contenant des propriétés et des méthodes.
+
+46. Définir la notion de propriété / attribut / méthode  
+## Propriété/Attribut : données associées à un objet.  
+## Méthode : fonction associée à un objet.
+
+47. Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité  
+## La visibilité détermine l'accessibilité des propriétés et méthodes d'une classe. Types : public, protected, private.
+
+48. Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?  
+## La méthode spécifique est le constructeur, déclaré avec `__construct()` en PHP.
+
+49. Qu’est-ce que l’encapsulation ?  
+## L’encapsulation consiste à cacher les détails internes d’un objet et à ne montrer que les fonctionnalités nécessaires.
+
+50. Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple  
+## Étendre une classe signifie créer une nouvelle classe basée sur une classe existante, utilisant l'héritage. Exemple : `class Chien extends Animal`.
+
+51. Définir l’opérateur de résolution de portée  
+## L’opérateur de résolution de portée `::` permet d'accéder aux membres statiques d'une classe en PHP.
+
+52. Définir une méthode / propriété statique  
+## Méthode/Propriété statique est liée à la classe elle-même plutôt qu'à des instances spécifiques. Utilisée avec `static`.
+
+53. Définir le polymorphisme en POO  
+## Le polymorphisme permet à des objets de différentes classes de répondre à la même méthode, mais avec des comportements différents.
+
+54. Définir une méthode / classe abstraite  
+## Méthode abstraite : méthode sans implémentation, devant être définie dans une sous-classe.  
+## Classe abstraite : classe qui ne peut pas être instanciée directement et peut contenir des méthodes abstraites.
+
+55. Définir le chaînage de méthodes  
+## Le chaînage de méthodes permet d’appeler plusieurs méthodes successivement sur le même objet.
+
+56. Qu’est-ce que la méthode `__toString()` ? Existe-t-il d’autres méthodes « magiques »  
+## `__toString()` est une méthode magique qui définit la représentation en chaîne de caractères d’un objet.  
+## D’autres méthodes magiques incluent `__construct()`, `__destruct()`, `__get()`, `__set()`.
+
+57. Qu’est-ce qu’un « autoload » ?  
+## L'autoload est un mécanisme qui charge automatiquement les classes nécessaires sans avoir besoin de les inclure manuellement.
+
+58. Comment appelle-t-on en français les « getters » et les « setters » ?  
+## Getters : accesseurs.  
+## Setters : mutateurs.
+
+59. Qu’est-ce que la sérialisation en PHP ?  
+## La sérialisation convertit un objet en une chaîne de caractères pour le stocker ou le transmettre.
 
 ## Architecture 
-60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
-61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
-62.	Qu’est-ce que l’architecture MVC ?
-63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
-64.	Quels sont les avantages de l’architecture MVC ?
-65.	Existe-t-il des variantes à l’architecture MVC ?
+60.	Voici les réponses aux questions sur les concepts d'architecture et design patterns :
 
+60. Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur ? Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence  
+## L'architecture client/serveur sépare les responsabilités entre le client (qui demande des services) et le serveur (qui les fournit). On interroge le serveur avec des requêtes HTTP (Hypertext Transfer Protocol). En ajoutant un « S », on obtient HTTPS (Hypertext Transfer Protocol Secure), qui ajoute une couche de sécurité via le chiffrement.
+
+61. Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern  
+## Un design pattern est une solution réutilisable à un problème courant dans un contexte donné. Exemples : Singleton, Factory, Observer.
+
+62. Qu’est-ce que l’architecture MVC ?  
+## L'architecture MVC (Model-View-Controller) sépare une application en trois composants : Model (données), View (interface utilisateur) et Controller (logique de traitement).
+
+63. Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?  
+## Model : gère les données et la logique métier.  
+## View : affiche les données à l'utilisateur.  
+## Controller : traite les entrées de l'utilisateur et met à jour le Model et la View.
+
+64. Quels sont les avantages de l’architecture MVC ?  
+## Séparation des préoccupations, facilitation de la maintenance, et meilleure organisation du code.
+
+65. Existe-t-il des variantes à l’architecture MVC ?  
+## Oui, des variantes comme MVVM (Model-View-ViewModel) et MVP (Model-View-Presenter) existent.
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 ## Une API (Application Programming Interface) agit comme un intermédiaire entre le client et la base de données, permettant au client de demander des informations qui sont ensuite récupérées et renvoyées. Une API REST (Representational State Transfer) est un type d'API qui utilise les protocoles HTTP pour faciliter cette communication en envoyant des requêtes et en recevant des réponses, souvent au format JSON ou XML.
 
@@ -252,26 +314,77 @@ d.	Clé primaire / clé étrangère
 ## Une base de données est un ensemble structuré de données stockées dans des tables, permettant un accès, une gestion et une manipulation efficaces via des requêtes SQL.
 
 74.	Définir les notions suivantes : 
-a.	SQL
-b.	MySQL
-c.	SGBD (donner 2 exemples de SGBD)
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+## a. SQL : Langage de requête utilisé pour gérer et manipuler les bases de données relationnelles.
+
+## b. MySQL : Système de gestion de bases de données relationnelles open source qui utilise SQL pour gérer les données.
+
+## c. SGBD : Système de Gestion de Bases de Données, logiciel qui permet de créer, gérer et manipuler des bases de données. Exemples : MySQL, PostgreSQL.
+
+75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrements et de colonnes appelées champs.
+
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+## Une base de données relationnelle utilise des tables liées, tandis qu'une base non relationnelle utilise des formats plus flexibles comme des documents ou des paires clé-valeur.
+
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+Une jointure combine des données de plusieurs tables. Les types courants sont :
+
+## - INNER JOIN : Récupère les enregistrements avec des correspondances dans les deux tables.
+## - LEFT JOIN  : Récupère tous les enregistrements de la table de gauche, et les correspondances de la table de droite.
+## - RIGHT JOIN : Récupère tous les enregistrements de la table de droite, et les correspondances de la table de gauche.
+## - FULL JOIN  : Récupère les enregistrements avec des correspondances dans l'une ou l'autre des tables.
+
 78.	A quoi sert une vue dans une base de données ?
+## Une vue dans une base de données est une table virtuelle qui affiche les résultats d'une requête. Elle simplifie l'accès aux données, peut combiner plusieurs tables et sécuriser l'accès en limitant les données visibles.
+
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+## L'intégrité référentielle garantit que les relations entre les tables restent valides. Par exemple, une clé étrangère dans une table doit correspondre à une clé primaire dans une autre table.
+
 80.	Quelles sont les fonctions d’agrégation en SQL ?
+## Les fonctions d'agrégation en SQL incluent :
+<!-- 
+- `COUNT()` : Compte le nombre d'enregistrements.
+- `SUM()` : Calcule la somme des valeurs.
+- `AVG()` : Calcule la moyenne des valeurs.
+- `MIN()` : Trouve la valeur minimale.
+- `MAX()` : Trouve la valeur maximale. -->
+
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
-82.	Quelles sont les clauses qui permettent de :
-a.	Insérer un nouvel enregistrement dans une table
-b.	Modifier un enregistrement dans une table
-c.	Supprimer un enregistrement dans une table
-d.	Supprimer la base de données
-e.	Filtrer les résultats d’une requête SQL
-f.	Trier les résultats d’une requête SELECT
-g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
-h.	Concaténer 2 chaînes de caractères 
+<!-- Un CRUD représente les opérations de base sur les données dans une base de données : 
+
+- Create (Créer)
+- Read (Lire)
+- Update (Mettre à jour)
+- Delete (Supprimer) -->
+
+Voici les réponses aux questions sur les clauses SQL :
+
+82. Quelles sont les clauses qui permettent de :
+a. Insérer un nouvel enregistrement dans une table  
+## `INSERT INTO`
+
+b. Modifier un enregistrement dans une table  
+## `UPDATE`
+
+c. Supprimer un enregistrement dans une table  
+## `DELETE`
+
+d. Supprimer la base de données  
+## `DROP DATABASE`
+
+e. Filtrer les résultats d’une requête SQL  
+## `WHERE`
+
+f. Trier les résultats d’une requête SELECT  
+## `ORDER BY`
+
+g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique  
+## `GROUP BY`
+
+h. Concaténer 2 chaînes de caractères  
+## `CONCAT`
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+## En PHP, on se connecte à une base de données avec la classe "PDO".
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
@@ -291,66 +404,185 @@ h.	Concaténer 2 chaînes de caractères
 ## Un ORM (Object-Relational Mapping) permet de gérer les données de la base en utilisant des objets. Dans Symfony, l'ORM par défaut est Doctrine.Un ORM permet de manipuler la base de données avec des objets. Dans Symfony, il s'appelle Doctrine.
 
 90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+## L'injection de dépendances consiste à fournir à un objet les ressources dont il a besoin. Symfony utilise le Service Container pour cela. Le fichier `services.yaml` contient les dépendances du projet.
+
 91.	Que permet le bundle Maker au sein de Symfony ? 
+## Le bundle Maker dans Symfony permet de générer automatiquement du code pour créer des entités, des contrôleurs, des formulaires, et d'autres composants courants, facilitant ainsi le développement.
+
 92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+## Le langage de requêtage utilisé dans un projet Symfony est Doctrine Query Language (DQL).
+
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+## Le composant de Symfony qui garantit l’authentification et l’autorisation des utilisateurs est le composant Security.
+
 
 ## Sécurité
-94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
-95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
-96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
-97.	Définir l’attaque par force brute et l’attaque par dictionnaire
-98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
-99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
-100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
-101.	Qu’est-ce qu’une politique de mots de passe forts ?
-102.	Qu’est-ce que l’hameçonnage ?
-103.	Définir la « validation des entrées »
+Voici les réponses au format demandé :
+
+94. Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?  
+## L’injection SQL est une vulnérabilité permettant à un attaquant d’exécuter des requêtes malveillantes sur la base de données. Pour s’en prémunir, il faut utiliser des requêtes préparées et des mécanismes d’échappement des données.
+
+95. Qu’est-ce que la faille XSS ? Comment s’en prémunir ?  
+## La faille XSS (Cross-Site Scripting) permet à un attaquant d’injecter du code malveillant dans les pages web. Pour s’en prémunir, il faut échapper les données entrées par les utilisateurs et utiliser des politiques de sécurité de contenu.
+
+96. Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?  
+## La faille CSRF (Cross-Site Request Forgery) force un utilisateur authentifié à effectuer des actions non désirées sur un site. Pour s’en prémunir, il faut utiliser des jetons CSRF dans les formulaires et vérifier leur validité côté serveur.
+Voici les réponses au format demandé :
+
+97. Définir l’attaque par force brute et l’attaque par dictionnaire  
+## L’attaque par force brute essaie toutes les combinaisons possibles jusqu’à trouver la bonne. L’attaque par dictionnaire utilise une liste de mots de passe courants pour trouver le bon.
+
+98. Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement  
+## Oui, par exemple :  
+<!-- - Injection de commandes : Exécute des commandes système malveillantes via une application.  
+- Inclusion de fichiers : Charge des fichiers non sécurisés sur le serveur.  
+- Attaques de type "Man-in-the-Middle" : Intercepte et manipule les communications entre deux parties. -->
+
+99. A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?  
+## L’authentification vérifie l’identité de l’utilisateur, tandis que l’autorisation détermine les actions qu’un utilisateur authentifié est autorisé à effectuer.
+
+100. Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage  
+## Le hachage transforme un mot de passe en une chaîne fixe de caractères, rendant sa récupération difficile. Des algorithmes de hachage incluent SHA-256 et bcrypt.
+
+101. Qu’est-ce qu’une politique de mots de passe forts ?  
+## Une politique de mots de passe forts impose l’utilisation de mots de passe longs, complexes et variés, incluant des majuscules, des minuscules, des chiffres et des caractères spéciaux.
+
+102. Qu’est-ce que l’hameçonnage ?  
+## L’hameçonnage est une technique de fraude qui utilise des messages trompeurs pour obtenir des informations sensibles, comme des identifiants ou des informations bancaires.
+
+103. Définir la « validation des entrées »  
+## La validation des entrées vérifie que les données fournies par l’utilisateur sont correctes, sécurisées et conformes aux attentes avant de les traiter ou de les stocker.
+
 
 ## RGPD
-104.	Qu’est-ce que le RGPD ?
-105.	Quel est son objectif principal ?
-106.	Quelle est la date d’entrée en vigueur du RGPD ?
-107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
-108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
-109.	Quel est le consentement valide selon le RPGD ?
-110.	Qu’est-ce qu’une politique de confidentialité ?
-111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
-112.	Quels sont les droits des utilisateurs selon le RGPD ?
-113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+104.	Qu’est-ce que le RGPD ?  
+## Le RGPD est un règlement européen sur la protection des données personnelles.  
+
+Quel est son objectif principal ?  
+## Son objectif principal est de protéger la vie privée des individus et leurs données personnelles.  
+
+Quelle est la date d’entrée en vigueur du RGPD ?  
+## Le RGPD est entré en vigueur le 25 mai 2018.  
+
+Quelles sont les sanctions possibles en cas de non-respect du RGPD ?  
+## Les sanctions peuvent aller jusqu’à 20 millions d'euros ou 4% du chiffre d'affaires mondial annuel.
+En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?  
+## En France, la CNIL (Commission Nationale de l'Informatique et des Libertés) est l'autorité compétente.
+
+Quel est le consentement valide selon le RGPD ?  
+## Le consentement doit être libre, éclairé, spécifique et univoque.
+
+Qu’est-ce qu’une politique de confidentialité ?  
+## Une politique de confidentialité est un document expliquant comment les données personnelles sont collectées, utilisées et protégées.
+
+Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?  
+## Les données personnelles doivent être conservées pendant une durée n'excédant pas celle nécessaire aux finalités pour lesquelles elles ont été collectées.
+
+Quels sont les droits des utilisateurs selon le RGPD ?  
+## Les droits incluent l'accès, la rectification, l'effacement, la limitation du traitement, la portabilité des données, et l'opposition.
+
+Qu’est-ce que le principe de minimisation des données selon le RGPD ?  
+## Le principe de minimisation des données stipule que seules les données nécessaires aux finalités du traitement doivent être collectées.
 
 ## SEO
-114.	Qu’est-ce que le SEO ? 
-115.	Quel est l’objectif principal du SEO ?
-116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
-117.	Qu’est-ce que la densité de mots-clés en SEO ?
-118.	Qu’est-ce qu’une balise « alt » ?
-119.	Qu’est-ce que la balise « meta description » ?
-120.	Qu’est-ce que le « nofollow » en SEO ?
-121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
-122.	Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
-123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
-124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
-125.	Qu'est-ce que l'optimisation des images pour le référencement ?
-126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+114.	Bien sûr ! Voici la version corrigée :
+
+114. Qu’est-ce que le SEO ?  
+## Le SEO (Search Engine Optimization) est l'ensemble des techniques visant à améliorer la visibilité d'un site web sur les moteurs de recherche.
+
+115. Quel est l’objectif principal du SEO ?  
+## L'objectif principal du SEO est d'augmenter la visibilité et le classement d'un site web dans les résultats des moteurs de recherche.
+
+116. Existe-t-il plusieurs types de référencement ? Lesquels ?  
+## Oui, les principaux types sont le référencement naturel (SEO) et le référencement payant (SEA).
+
+117. Qu’est-ce que la densité de mots-clés en SEO ?  
+## La densité de mots-clés est le pourcentage de fois qu'un mot-clé apparaît par rapport au nombre total de mots sur une page.
+
+118. Qu’est-ce qu’une balise « alt » ?  
+## La balise « alt » est utilisée pour fournir une description textuelle des images pour les moteurs de recherche et les utilisateurs malvoyants.
+
+119. Qu’est-ce que la balise « meta description » ?  
+## La balise « meta description » est un texte descriptif affiché dans les résultats des moteurs de recherche, résumant le contenu de la page.
+
+120. Qu’est-ce que le « nofollow » en SEO ?  
+## Le « nofollow » est un attribut HTML utilisé pour indiquer aux moteurs de recherche de ne pas suivre un lien ou transmettre du crédit SEO à la page liée.
+
+121. Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?  
+## Le contenu de qualité améliore le classement dans les moteurs de recherche et attire plus de visiteurs en répondant mieux aux besoins des utilisateurs.
+Voici les réponses aux questions avec la format demandé :
+
+122. Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?  
+## Les balises de titre structurées aident les moteurs de recherche à comprendre la hiérarchie et le contenu de la page, améliorant ainsi la lisibilité et le référencement.
+
+123. Quelle est la recommandation pour les URL d'un site web bien référencé ?  
+## Les URL doivent être courtes, descriptives, et contenir des mots-clés pertinents pour améliorer leur visibilité dans les résultats de recherche.
+
+124. Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?  
+## Le maillage interne est la pratique de lier les pages d'un même site entre elles, ce qui aide les moteurs de recherche à explorer le site et améliore la navigation pour les utilisateurs.
+
+125. Qu'est-ce que l'optimisation des images pour le référencement ?  
+## L'optimisation des images inclut la compression, l'utilisation de balises « alt » descriptives, et le choix de formats appropriés pour améliorer le temps de chargement et la visibilité dans les moteurs de recherche.
+
+126. Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?  
+## Un plan de site est un fichier qui liste toutes les pages d'un site web, aidant les moteurs de recherche à indexer le site plus efficacement.
 
 ## Gestion de projets - DevOps
-127.	Qu’est-ce que la gestion de projet ?	
-128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
-129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
-130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
-131.	Qu’est-ce que la planification itérative ?
-132.	Citer 3 méthodes Agiles dans le cadre d’un projet informatique
-133.	Qu’est-ce qu’une réunion de revue de projet ?
-134.	Qu’est-ce qu’un livrable dans un projet ? 
-135.	Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
-136.	Qu’est-ce que le DevOps et quel est son objectif principal ?
-137.	Qu’est-ce que l’intégration continue ? 
-138.	Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
-139.	Qu’est-ce qu’un test unitaire ? 
-140.	Quelle est l'unité de code testée lors d'un test unitaire ?
-141.	Quelles sont les caractéristiques d'un bon test unitaire ?
-142.	Qu'est-ce qu'une assertion dans un test unitaire ?
+Voici les réponses aux questions sur la gestion de projet, les méthodologies et le DevOps :
+
+127. Qu’est-ce que la gestion de projet ?  
+## La gestion de projet consiste à planifier, organiser et contrôler les ressources pour atteindre des objectifs spécifiques.
+
+128. Qu’est-ce qu’une méthode Agile de gestion de projet ?  
+## Une méthode Agile est une approche de gestion de projet qui favorise la flexibilité, la collaboration et les itérations rapides.
+
+129. Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages  
+## La méthode MoSCoW classe les exigences en Must, Should, Could, et Won’t pour prioriser les tâches.  
+## Avantages : aide à gérer les attentes et à concentrer les efforts sur les priorités.
+
+130. A quoi sert la méthodologie MVP ? Citer les caractéristiques clés  
+## La méthodologie MVP (Minimum Viable Product) sert à créer une version basique d’un produit pour tester les hypothèses et recueillir des retours.  
+## Caractéristiques clés : développement rapide, retour utilisateur précoce, ajustements basés sur le feedback.
+
+131. Qu’est-ce que la planification itérative ?  
+## La planification itérative divise un projet en cycles (itérations) pour développer, tester, et améliorer le produit progressivement.
+
+132. Citer 3 méthodes Agiles dans le cadre d’un projet informatique  
+## Scrum, Kanban, Extreme Programming (XP).
+
+133. Qu’est-ce qu’une réunion de revue de projet ?  
+## Une réunion de revue de projet évalue les progrès, discute des résultats et ajuste les plans en fonction des feedbacks et des objectifs.
+
+134. Qu’est-ce qu’un livrable dans un projet ?  
+## Un livrable est un produit ou résultat tangible qui doit être remis à la fin d'une phase ou d'un projet.
+
+135. Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux  
+## Transparence : tous les aspects du processus doivent être visibles et clairs.  
+## Inspection : évaluer régulièrement les progrès et identifier les écarts.  
+## Adaptation : ajuster les processus et le travail en fonction des résultats de l'inspection.
+
+136. Qu’est-ce que le DevOps et quel est son objectif principal ?  
+## DevOps est une pratique qui combine le développement et les opérations pour améliorer la collaboration et l'efficacité.  
+## Objectif principal : accélérer le cycle de livraison des logiciels tout en améliorant la qualité.
+
+137. Qu’est-ce que l’intégration continue ?  
+## L’intégration continue est une pratique où le code est fréquemment intégré et testé pour détecter rapidement les erreurs.
+
+138. Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?  
+## Docker est une plateforme de conteneurisation qui permet d'emballer les applications et leurs dépendances.  
+## Utile pour DevOps : assure une portabilité et une cohérence entre les environnements de développement, test, et production.
+
+139. Qu’est-ce qu’un test unitaire ?  
+## Un test unitaire vérifie le bon fonctionnement d’une unité de code (fonction, méthode) de manière isolée.
+
+140. Quelle est l'unité de code testée lors d'un test unitaire ?  
+## L’unité de code testée est généralement une fonction ou une méthode individuelle.
+
+141. Quelles sont les caractéristiques d'un bon test unitaire ?  
+## Un bon test unitaire est indépendant, reproductible, rapide, et vérifie une fonctionnalité spécifique du code.
+
+142. Qu'est-ce qu'une assertion dans un test unitaire ?  
+## Une assertion est une vérification dans le test qui compare le résultat attendu et le résultat réel pour déterminer si le test passe ou échoue.
  
 ## English
 1)	What does JavaScript enable you to do on a website ?
