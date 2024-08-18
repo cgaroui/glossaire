@@ -280,9 +280,16 @@ h.	Concaténer 2 chaînes de caractères
     ## Symfony repose sur le langage de programmation PHP et utilise le design pattern MVC (Modèle-Vue-Contrôleur).
 86.	Quelle est la dernière version en date de Symfony ?
     ## La dernière version de Symfony est la 7.1, publiée en mai 2024
-87.	Qu’est-ce qu’un bundle ? 
+87.	Qu’est-ce qu’un bundle ?
+## Un bundle est un ensemble de fichiers groupés ensemble pour être déployés ou utilisés ensemble.
+## 
 88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
+
+## Le moteur de template utilisé par défaut dans Symfony est Twig.
+
 89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+## Un ORM (Object-Relational Mapping) permet de gérer les données de la base en utilisant des objets. Dans Symfony, l'ORM par défaut est Doctrine.Un ORM permet de manipuler la base de données avec des objets. Dans Symfony, il s'appelle Doctrine.
+
 90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 91.	Que permet le bundle Maker au sein de Symfony ? 
 92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
