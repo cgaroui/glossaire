@@ -485,7 +485,7 @@ Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 ## Le principe de minimisation des données stipule que seules les données nécessaires aux finalités du traitement doivent être collectées.
 
 ## SEO
-114.	Bien sûr ! Voici la version corrigée :
+
 
 114. Qu’est-ce que le SEO ?  
 ## Le SEO (Search Engine Optimization) est l'ensemble des techniques visant à améliorer la visibilité d'un site web sur les moteurs de recherche.
@@ -617,6 +617,109 @@ Voici les réponses aux questions sur la gestion de projet, les méthodologies e
     a.	Strict schema enforcement
     b.	Support for complex transactions
  ##   c.	Scalability and flexible data models
+
+ //-----------------------API/API REST--------------------------------------------
+
+Qu'est-ce qu'une API REST et pourquoi est-elle utilisée ?
+## c'est une application programming interface qui est soumise à des regles architechture REST , permet aux systèmes de communiquer entre eux en utilisant les protocoles HTTP,elle est utilisée pour des operations souvent CRUD sur des ressourses, sa simplicité, son indépendance vis-à-vis des technologies sous-jacentes.
+## permet d'accéder aux types de contenu via des points de terminaison d'API(endpoint).
+
+
+Quelles sont les principales caractéristiques qui définissent une API REST ?
+## l'API REST est principalement caractérisée par :
+## - sa flexibilitée : car les données ne sont pas liées à des méthodes et à des ressources, REST a la capacité de traiter plusieurs types d'appels et de renvoyer différents formats de données.
+## - sa polyvalence: n'est pas limité à XML, mais peut renvoyer des formats XML, JSON, HTML, PYTHON, PHP ou texte en fonction de ce que le client demande
+## - son indépendance: indépendantes du type de plateforme ou des langages utilisés entre le client et le serveur.
+
+Quels sont les différents types de méthodes HTTP utilisées dans les API REST et quelles sont leurs utilisations principales ?
+
+## Les methodes HTTP utilisées sont :
+
+## - PUT pour modifier ou mettre à jour l'état des données.
+## - POST pour créer une ressource.
+## - PATCH pour modifier une ressource.
+## - GET pour récupérer des informations.
+## - DELETE pour supprimer une ressource.
+
+----------------------------Questions Spécifiques à API Platform-----------------------
+
+Pourquoi avez-vous choisi API Platform pour votre projet ?
+## api plateform ou Api REST plus généralement pour pouvoir la réutiliser plusieur fois par exemple dans mon projet je compte faire un API contenant mes produit que je peux réutiliser pour différents sites 
+Quels sont les avantages d'utiliser API Platform par rapport à d'autres frameworks ou outils pour créer des API REST ?
+## manipulation facile et intuitive , la posibilité d'envoyer des requêtes à l'API directement depuis l'interface utilisateur 
+## Api platform permet la personalisation
+
+Pouvez-vous expliquer comment API Platform facilite la création de ressources et leur exposition via une API REST ?
+## en utilisant des entités PHP pour générer automatiquement les endpoints API,
+## grace au support multi format json, xml....
+
+
+-----------------------------Questions Techniques et Pratiques--------------------------------
+
+Pouvez-vous décrire les principales étapes de la création d'une nouvelle ressource dans API Platform ?
+## dans un premier temps on créé l'entité , ensuite on Configure l’API => Annoter l’entité avec @ApiResource 
+## on génére et applique la migration => Créer un fichier de migration et mettre à jour la base de données
+## on teste l’API : Vérifier les endpoints et la documentation générée pour la nouvelle ressource.
+## 
+Comment gérez-vous la validation des données dans API Platform ?
+## La validation des données soumises est aussi simple que l'ajout de contraintes intégrées de Symfony ou de contraintes personnalisées directement dans les classes marquées avec l' #[ApiResource]attribut 
+
+Comment configurez-vous les contrôleurs dans API Platform pour personnaliser le comportement des endpoints ?
+## on créé un controleur contenant une logique personalisé qui est (en precisant le endpoint personnalisé ) par exemple :
+<!-- [ApiResource(
+    // Définition des opérations disponibles pour la ressource
+    operations: [
+        new Get(
+            uriTemplate: '/products/statistics',       // Chemin personnalisé pour l'endpoint
+            controller: ProductStatisticsController::class,     // Contrôleur qui gère cette opération
+            name: 'get_product_statistics'      // Nom unique pour cette opération
+        ),
+    ]
+)] -->
+
+
+
+--------------------------------Sécurité et Optimisation---------------------------------------------
+
+Quelles sont les meilleures pratiques de sécurité à suivre lors de la création d'une API REST avec API Platform ?
+## pour assurer la sécurité lors de la creation d'une API REST il faut gérer 
+## l'authentification et les permission (en donnant le droit seulment à l'admin par exemple de modification ou créé une nouvelle ressource )
+## Sécurisation des échanges (HTTPS, CORS)
+## Protection contre les attaques (limitation des requêtes, CSRF)
+## suivi des activités et mises à jour réguliéres
+
+Comment gérez-vous l'authentification et l'autorisation dans API Platform ?
+## l'administrateur de la plateforme API délègue la prise en charge de l'authentification à React Admin qui délégue la logique d'authentification à un authProvider
+## react-admin restreint l'accès à toutes les pages déclarées dans les <Resource>composants,si on souhaite autoriser l'accès anonyme, on peux définir la disableAuthentication propriété dans les composants de la page.
+
+Pouvez-vous expliquer comment optimiser les performances d'une API créée avec API Platform ?
+## optimisation des requtes : pagination , filtrage tri cache 
+## otimisation symfony et api platform: en Désactivant les opérations inutiles sur certaines ressources.
+## Optimisation des Données : Minimiser les Données Sérialisées
+-----------------------------------Cas Pratique------------------------------------------------------
+
+Pouvez-vous nous montrer un exemple de code pour une ressource simple dans API Platform et expliquer chaque partie du code ?
+Comment testez-vous vos API pour vous assurer qu'elles fonctionnent correctement et répondent aux besoins des utilisateurs ?
+## Pour vérifier que nos API fonctionnent bien et satisfont les utilisateurs, on réalise différents types de tests, par ex leur fonctionnalité, performance, sécurité, conformité aux normes, et facilité d'utilisation. on utilise des outils automatisés et surveillons en continu pour repérer et corriger les problèmes rapidement.
+
+Pouvez-vous expliquer comment versionner une API avec API Platform et pourquoi c'est important ?
+## en ajoutant un préfixe de version dans les routes. Par exemple on peut avoir des versions comme /api/v1/products et /api/v2/products.
+-----------------------------------Questions Avancées-------------------------------------------------
+
+Comment gérez-vous les relations entre les entités dans API Platform ? Pouvez-vous donner un exemple concret ?
+## En configurant les relations entre les entités et en utilisant les groupes de sérialisation appropriés, on peux gérer efficacement les relations dans API Platform. Cela permet de récupérer les données associées et de manipuler les entités liées de manière fluide dans les opérations CRUD.
+
+
+Comment implémentez-vous la pagination, la tri, et les filtres dans vos endpoints API avec API Platform ?
+## la pagination : API Platform prend en charge nativement les collections paginées, elle est activé par defaut pour toutes les collection , on poura les configurer depuis côté serveur ou côté client (avec param GET ) => on peux Configurez le nombre d'éléments par page dans api_platform.yaml
+
+## Tri : Le tri est généralement activé par défaut pour les collections et se fait via des paramètres de requête.
+
+## Filtres : on utilise les annotations ou la configuration YAML pour activer et configurer les filtres disponibles pour les entités.
+
+Pouvez-vous expliquer le concept de DTO (Data Transfer Object) et comment vous l'utilisez dans API Platform ?
+## DTO( objet de transfet de donées)  est un objet qui transporte des données entre des processus. Il permet de faciliter la communication entre deux systèmes (comme une API le serveur) sans risquer d'exposer des informations sensibles. 
+## doit être implémenté à l'aide d'une classe de ressources API représentant le modèle de données public exposé via l'API et un fournisseur d'état personnalisé . Dans de tels cas, la classe marquée avec #[ApiResource]agira comme un DTO.
 
 
 
