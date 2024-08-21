@@ -37,8 +37,22 @@
     ## une constante est un element qui ne change pas de valeur ex les entier sont des constantes , tandis que variable est une lettre ou expression litterale qui peut prendre des valeurs different de types differents sa valeur varie en fonction de ce qu'on lui affecte : ex : x=2; x="prenom" .
     
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
-    ## Une superglobale en PHP est une variable prédéfinie accessible partout dans le script, et il y en a neuf au total. Un exemple est $_GET qui récupère des données d'un formulaire envoyé via l'URL. 
-    ## liste : ($GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST, et $_ENV.)
+    ## Une superglobale en PHP est une variable prédéfinie accessible partout dans le script  sans avoir besoin de la déclarer ou de l'importer explicitement  , et il y en a neuf au total. Un exemple est $_GET qui récupère des données d'un formulaire envoyé via l'URL. 
+    ## $_GET : contient les valeurs des paramètres passés via une requête HTTP GET. Par exemple, si 
+    <!-- l'URL est "http://example.com/page.php?id=123", alors $_GET['id'] contiendra la valeur "123".
+    • $_POST : contient les valeurs des paramètres envoyés via une requête HTTP POST. Les données 
+    de formulaire envoyées avec la méthode POST sont accessibles à travers cette superglobale.
+    • $_SERVER : fournit des informations sur l'environnement du serveur et la requête en Entier 
+    (integer) : Les entiers représentent les nombres entiers sans décimales. Par exemple :client, les 
+    informations sur le serveur, etc.
+    • $_SESSION : permet de stocker et de récupérer des variables de session, qui sont utilisées pour 
+    maintenir des données persistantes sur plusieurs pages ou requêtes.
+    • $_COOKIE : contient les valeurs des cookies envoyés par le client. Les cookies sont de petites 
+    données stockées sur le navigateur du client et sont utilisés pour maintenir des informations 
+    entre les différentes requêtes.
+    • $_FILES : contient des informations sur les fichiers téléchargés via un formulaire d'envoi de 
+    fichiers. Il permet d'accéder aux propriétés des fichiers téléchargés, comme le nom du fichier, le 
+    type MIME et l'emplacement temporaire du fichier sur le serveur. -->
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
     ## les types primitifs en php : les entiers, flottants, chaînes de caractères, booléens, tableaux, objets, ressources, et le type NULL pour une variable sans valeur.
@@ -87,7 +101,8 @@ Faire...tant que (do...while) : Répète un bloc de code au moins une fois puis 
 
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 
-## Une session en PHP est un mécanisme permettant de stocker des informations utilisateur de manière persistante à travers plusieurs pages d'un site web, et la fonction pour démarrer une session est session_start()
+## Une session en PHP est un mécanisme permettant de stocker des données côté serveur pour un utilisateur spécifique pendant une période donnée de manière persistante à travers plusieurs pages d'un site web, et la fonction pour démarrer une session est session_start()
+##  Une session est créée lorsque l'utilisateur accède à un site web et peut être utilisée pour stocker des informations telles que des préférences utilisateur, des paniers d'achat ou des données de connexion.La fonction qui permet de démarrer une session en PHP est session_start(). Cette fonction doit être appelée avant d'interagir avec la session pour initialiser ou récupérer les données de session. Ensuite, des données sont stockées dans la variable superglobale $_SESSION.
 
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 ## un cookie est un petit fichier stocké sur le navigateur de l'utilisateur par un site web pour mémoriser des informations, et en PHP, on peut définir un cookie avec setcookie().
@@ -388,17 +403,18 @@ h. Concaténer 2 chaînes de caractères
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
-    ## Symfony est un framework PHP libre basé sur le design pattern MVC12. Il a été créé par une agence web française appelée SensioLabs1. Symfony fournit un ensemble de fonctionnalités et de modules déjà codés et testés qui permettent d’accélérer le développement
+    ## Symfony est un framework open-source et hautement extensible, utilisé pour développer des applications web et des API. Il fournit une large gamme de fonctionnalités prêtes à l'emploi, telles que la gestion des routes, la gestion des formulaires, l'accès aux bases de données, la sécurité, etc., facilitant ainsi le processus de développement.
+
 85.	Sur quel langage de programmation et design pattern repose Symfony ? 
     ## Symfony repose sur le langage de programmation PHP et utilise le design pattern MVC (Modèle-Vue-Contrôleur).
 86.	Quelle est la dernière version en date de Symfony ?
     ## La dernière version de Symfony est la 7.1, publiée en mai 2024
 87.	Qu’est-ce qu’un bundle ?
-## Un bundle est un ensemble de fichiers groupés ensemble pour être déployés ou utilisés ensemble.
+## Un bundle est un composant réutilisable et autonome dans le framework Symfony, regroupant des fonctionnalités spécifiques
 ## 
 88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
 
-## Le moteur de template utilisé par défaut dans Symfony est Twig.
+## Le moteur de template utilisé par défaut dans Symfony est Twig. Twig est un moteur de template moderne, puissant et flexible qui facilite la gestion et la manipulation des vues dans les applications Symfony. Il offre une syntaxe intuitive et des fonctionnalités avancées pour rendre le processus de création et de rendu des vues plus efficace et plus sécurisé
 
 89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
 ## Un ORM (Object-Relational Mapping) permet de gérer les données de la base en utilisant des objets. Dans Symfony, l'ORM par défaut est Doctrine.Un ORM permet de manipuler la base de données avec des objets. Dans Symfony, il s'appelle Doctrine.
@@ -411,9 +427,10 @@ h. Concaténer 2 chaînes de caractères
 
 92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
 ## Le langage de requêtage utilisé dans un projet Symfony est Doctrine Query Language (DQL).
+## . DQL est utilisé en conjonction avec Doctrine, l'ORM de Symfony, pour effectuer des requêtes et manipuler les objets persistants dans la base de données. Il offre une syntaxe plus orientée objet et abstraite par rapport au SQL pur, facilitant le mapping des objets avec les tables de la base de données.
 
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
-## Le composant de Symfony qui garantit l’authentification et l’autorisation des utilisateurs est le composant Security.
+## Le composant de sécurité (Security) de Symfony est responsable de la gestion de l'authentification et de l'autorisation des utilisateurs. Il fournit des fonctionnalités telles que l'authentification basée sur différents mécanismes (par exemple, formulaire de connexion, authentification basée sur un jeton, authentification à l'aide de services tiers, etc.), la gestion des rôles et des permissions, ainsi que des fonctionnalités de contrôle d'accès pour restreindre l'accès aux différentes parties de l'application en fonction des droits des utilisateurs.
 
 
 ## Sécurité
@@ -470,7 +487,7 @@ En France, quel est l’autorité administrative qui s’occupe de faire appliqu
 ## En France, la CNIL (Commission Nationale de l'Informatique et des Libertés) est l'autorité compétente.
 
 Quel est le consentement valide selon le RGPD ?  
-## Le consentement doit être libre, éclairé, spécifique et univoque.
+## Le composant de sécurité (Security) de Symfony est responsable de la gestion de l'authentification et de l'autorisation des utilisateurs. Il fournit des fonctionnalités telles que l'authentification basée sur différents mécanismes (par exemple, formulaire de connexion, authentification basée sur un jeton, authentification à l'aide de services tiers, etc.), la gestion des rôles et des permissions, ainsi que des fonctionnalités de contrôle d'accès pour restreindre l'accès aux différentes parties de l'application en fonction des droits des utilisateurs.
 
 Qu’est-ce qu’une politique de confidentialité ?  
 ## Une politique de confidentialité est un document expliquant comment les données personnelles sont collectées, utilisées et protégées.
@@ -494,8 +511,14 @@ Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 ## L'objectif principal du SEO est d'augmenter la visibilité et le classement d'un site web dans les résultats des moteurs de recherche.
 
 116. Existe-t-il plusieurs types de référencement ? Lesquels ?  
-## Oui, les principaux types sont le référencement naturel (SEO) et le référencement payant (SEA).
-
+## e référencement naturel (SEO) vise à optimiser le positionnement d'un site web dans les résultats de 
+<!-- recherche organiques. 
+Le référencement payant (SEA) consiste à acheter des annonces publicitaires pour apparaître en tête 
+des résultats sponsorisés. 
+Le référencement social (SMO) concerne l'optimisation de la présence d'un site web sur les réseaux 
+sociaux pour générer du trafic et augmenter la visibilité. -->
+<!-- La densité de mots-clés en SEO mesure la fréquence d'apparition d'un mot-clé dans le contenu d'une*$ù^è_qs)bgwà    Lµ  -->
+<!-- page web, tout en maintenant un équilibre pour éviter la sur-optimisation. -->
 117. Qu’est-ce que la densité de mots-clés en SEO ?  
 ## La densité de mots-clés est le pourcentage de fois qu'un mot-clé apparaît par rapport au nombre total de mots sur une page.
 
