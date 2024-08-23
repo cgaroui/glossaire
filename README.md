@@ -768,7 +768,57 @@ Pouvez-vous expliquer le concept de DTO (Data Transfer Object) et comment vous l
      une session est un moyen de stocker des informations temporaires pour un utilisateur pendant qu'il utilise un site. Ces informations, comme un panier d'achats ou des préférences, sont conservées sur le serveur pendant que l'utilisateur navigue sur le site. En PHP, les sessions sont gérées à l'aide de la superglobale $_SESSION.
 
 
+//-------------------------------------------------------------
+//              documentation API 
+//------------------------------------------------------------------
+Quels sont les principaux éléments à inclure dans la documentation d'un projet logiciel ?
+    <!-- Une documentation fournit des informations générales sur le projet ainsi que le guide d’installation pour configurer l’application et le guide d’utilisation pour comprendre elle a été pensée. -->
+Comment documenter correctement une API ?
+    <!-- La documentation d’une API doit comporter :
+    La manière de s’authentifier
+    La définition des endpoints
+    Les paramètres
+    Des exemples de requêtes et de réponses
+    Garder que les commentaires utiles (supprimer les commentaires qui expliquent ce que fait une méthode simple par exemple)
+    Faire attention aux noms donnés aux variables et aux fonctions
+    Utiliser des conventions de nommage pour rendre le code lisible
+    Factoriser au maximum le code et l’indenter correctement -->
+Quels outils peuvent être utilisés pour générer et maintenir la documentation de code automatiquement ?
+    <!-- Read the Docs : plateforme d’hébergement de projets open source qui permet de synchroniser la documentation avec un repository Git
+    JSDoc : plateforme pour documenter des projets JavaScript en générant automatiquement des pages HTML en se basant sur les commentaires
+    Apiary : plateforme qui permet de gérer le cycle de vie d’une API -->
+Quelle est l'importance de maintenir la documentation à jour et quelles sont les meilleures pratiques pour y parvenir ?
+    <!-- La documentation est cruciale pour le travail d’équipe : elle permet un partage clair au sein d’une équipe afin de gagner du temps. Elle évite également les malentendus. -->
+Comment structurer la documentation d'un projet pour qu'elle soit facilement navigable par les utilisateurs ?
+    <!-- Pour une documentation lisible, il est important de la diviser en sections logiques (installation, utilisation). Le documentation doit être « tout juste suffisante » : on doit y trouver l’essentiel sans trop de terme technique. Ne pas hésiter à y insérer des schémas ou des tableaux qui représentent des informations de manière plus visuelle. -->
+Quels sont les avantages et les inconvénients de la documentation en ligne par rapport à la documentation hors ligne ?
+    <!-- Documentation en ligne :
+    Avantage :  Mise à jour immédiate, documentation collaborative, intégration de fichiers externes
+    Inconvénient : Non disponible sans connexion internet -->
+    <!-- Documentation hors ligne :
+    Avantages : disponible sans internet, moins de risque de sécurité
+    Inconvénients : mise à jour à faire manuellement -->
+Comment intégrer la documentation dans le cycle de développement Agile ?
+    que d’intégrer la documentation au sein même de chaque sprint.
 
+Quels sont les défis courants rencontrés lors de la rédaction de la documentation et comment les surmonter ?
+    <!-- Le principal défi est le manque de temps : la documentation passe souvent après les tâche et échéances des développeurs. Pour pallier cela, la documentation peut être incluse directement dans les deadlines au même niveau que les fonctionnalités du projet.
+    Un autre défi est la complexité technique du projet, qui rend difficile l’adaptation de la documentation afin qu’elle soit compréhensible et claire pour le plus grand nombre d’utilisateurs. Des schémas ou des tableaux de données peuvent illustrer notre documentation pour la rendre plus assimilable. -->
+Quelles bonnes pratiques recommandes-tu pour la rédaction des commentaires dans le code ?
+Comment évaluer la qualité de la documentation existante d'un projet ?
+    <!-- Pour contrôler la qualité de sa documentation, on peut vérifier plusieurs points :
+    Si la documentation est compréhensible
+    Si elle est lisible
+    Si elle répond aux besoins des utilisateurs -->
+Quelles sont les différences entre la documentation technique et la documentation utilisateur ?
+    <!-- La documentation technique est plus détaillée et va servir à la mise en œuvre du projet alors que la documentation utilisateur représente l’architecture générale du projet. -->
+Comment utiliser les outils de gestion de version pour suivre les changements dans la documentation ?
+    <!-- En utilisant des outils comme Read The docs qui permet de synchroniser la documentation avec un repository Git pour intégrer la documentation de manière continue. -->
+Peux-tu expliquer ce qu'est le "Readme-driven Development" et comment il peut être bénéfique ?
+    <!-- C’est une approche de développement logiciel qui se concentre sur la création d’un fichier readme, qui décrit l’objectif, les fonctionnalités et l’utilisation d’un projet. Il présente plusieurs avantages :
+    Permet d’améliorer la communication entre les membres d’une équipe
+    Aide à clarifier les fonctionnalités du projet dès le début du développement
+    Aide à garantir que le projet est bien documenté -->
 
 
 
